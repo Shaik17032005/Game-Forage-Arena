@@ -1,0 +1,36 @@
+# Ignore C++ compiled files
+*.exe
+*.dll
+*.o
+*.obj
+
+# Ignore saved text files from our C++ game
+players.txt
+
+# Ignore Java Spring Boot build folders
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Ignore React Node Modules (if you install React later)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Ignore IDE specific folders
+.vscode/
+.idea/
+*.suo
+*.sln
+
+# Ignore Sensitive Files and Secrets
+*.env
+*.env.local
+*.env.development
+*.env.production
+*.pem
+*.key
+secrets.json
+credentials.json
+backend/src/main/resources/application-secret.properties
